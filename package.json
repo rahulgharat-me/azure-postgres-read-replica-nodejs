@@ -1,0 +1,17 @@
+{
+  "name": "azure-postgres-read-replica-nodejs",
+  "version": "1.0.0",
+  "description": "Primary + read replica Postgres access for Node.js (Azure Flexible Server)",
+  "scripts": {
+    "example": "node --env-file=.env example.js",
+    "loadtest": "node --env-file=.env loadtest.js"
+  },
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "pg": "^8.23.1"
+  },
+  "engines": {
+    "node": ">=20.6"
+  }
+}
